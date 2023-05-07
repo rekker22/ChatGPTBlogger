@@ -1,0 +1,12 @@
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\bin\Debug\net6.0\ChatGPTBlogger.Service.deps.json
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\bin\Debug\net6.0\ChatGPTBlogger.Service.dll
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\bin\Debug\net6.0\ChatGPTBlogger.Service.pdb
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\obj\Debug\net6.0\ChatGPTBlogger.Service.csproj.AssemblyReference.cache
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\obj\Debug\net6.0\ChatGPTBlogger.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\obj\Debug\net6.0\ChatGPTBlogger.Service.AssemblyInfoInputs.cache
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\obj\Debug\net6.0\ChatGPTBlogger.Service.AssemblyInfo.cs
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\obj\Debug\net6.0\ChatGPTBlogger.Service.csproj.CoreCompileInputs.cache
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\obj\Debug\net6.0\ChatGPTBlogger.Service.dll
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\obj\Debug\net6.0\refint\ChatGPTBlogger.Service.dll
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\obj\Debug\net6.0\ChatGPTBlogger.Service.pdb
+C:\Projects\ChatGPTBlogger\ChatGPTBlogger.Service\obj\Debug\net6.0\ref\ChatGPTBlogger.Service.dll

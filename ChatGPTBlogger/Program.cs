@@ -190,7 +190,7 @@ namespace ChatGPTBlogger
                     ChatGPTTweetData chatGPTTweetData = new ChatGPTTweetData();
                     chatGPTTweetData.text = d.text;
                     chatGPTTweetData.id.Add(d.id);
-                    if (d.entities != null)
+                    if (d.entities != null && d.entities.urls != null)
                     { //replacing original Urls
                         foreach (Url url in d.entities.urls)
                         {
@@ -219,7 +219,7 @@ namespace ChatGPTBlogger
                         }
                     }
 
-                    if(d.attachments == null && chatGPTTweetData.images == null)
+                    if(d.attachments == null && chatGPTTweetData.images.Count == 0)
                     {
                         ReferencedTweet? tempQuotedTweet = d.referenced_tweets?.Where(x => x.type == "quoted").FirstOrDefault();
                         TweetData twdata = await GetTweet(tempQuotedTweet.id, api, clientSecret);
@@ -245,7 +245,7 @@ namespace ChatGPTBlogger
                             chatGPTTweetData.media.AddRange(data.includes.media);
                         }
 
-                        if (data.data.entities != null)
+                        if (data.data.entities != null && data.data.entities.urls != null)
                         { //replacing original Urls
                             foreach (Url url in data.data.entities.urls)
                             {
